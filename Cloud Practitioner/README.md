@@ -1,6 +1,6 @@
 # Course: [AWS Skillbuilder Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/134/play/62437/aws-cloud-practitioner-essentials)
 
-# Module 1
+## Module 1
 
 - AWS follows `Pay for what you use` principle
 - `Cloud Computing` : On demand delievery of IT Resources over the internet with **Pay as you Go** pricing
@@ -11,4 +11,4 @@
   - On Premise : Deployed to private cloud. Resources are kept in on-premise data centers 
   - Hybrid : Keep resources on private clouds and use services provided by cloud based resources
 
-## [EC2](./EC2.md)
+## [Elastic Cloud Compute](./EC2.md)
