@@ -1,1 +1,1 @@
-# [AWS Cloud Practitioner Essentials](./aws_cloud_practitioner.md)
+# [AWS Cloud Practitioner Essentials](./Cloud Practitioner)
