@@ -1,1 +1,1 @@
-# [AWS Cloud Practitioner Essentials](./Cloud Practitioner)
+# [AWS Cloud Practitioner Essentials](./Cloud%20Practitioner)
