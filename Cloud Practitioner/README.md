@@ -1,3 +1,5 @@
+# Course: [AWS Skillbuilder Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/134/play/62437/aws-cloud-practitioner-essentials)
+
 # Module 1
 
 - AWS follows `Pay for what you use` principle
