@@ -28,3 +28,26 @@ Available plans
 - Reserved Instances : Reserve an instance for 1 year or 3 year term
 - Spot Instances : Use unused EC2 computing capacity, AWS can reclaim these any time (By giving a 2 min warning)
 - Dedicated Hosts : Physical hosts dedicated for an account (Generally used for meeting compliance requirements)
+
+## Scaling
+- Automatically responding to changing demand by scaling up or out physical resources
+  - Scale Up : Increase the server configuration
+  - Scale Out : Increase the number of servers
+- Handled by `AWS EC2 AUTO SCALING`
+- Types
+  - Dynamic Scaling : Responds to **changing** demand
+  - Predictive Scaling : Schedules the right no of EC2 instances based on **predicted** demand
+
+### AWS EC2 AUTO SCALING
+- Create an autoscaling group and provision the following
+  - Minimum Capacity : Instances that launch immediately after creating the group
+  - Desired Capacity : Default to minimum capacity if not set.
+  - Maximum Capacity : Maximum no of instances that will be created in this group
+
+## Load Balancing
+- Required to distribute traffic among different resources in an auto-scaling group
+- AWS Service : `Elastic Load Balancer`
+  - Single point of contact for all incoming web traffic
+  - Works in a particular region
+  - Scales automatically
+  - 
