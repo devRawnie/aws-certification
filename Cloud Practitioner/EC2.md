@@ -5,7 +5,7 @@
   - A user, using the AWS instance is sharing the host with other EC2 Users
   - A Hypervisor on the host machine is responsible for sharing resources with the connected computers
 
-- While provision an EC2 instance, can configure:
+- While provisioning an EC2 instance, can configure:
   - Operating System
   - Software to run (DB, Third Party Software)
 - Can vertically scale on-demand
