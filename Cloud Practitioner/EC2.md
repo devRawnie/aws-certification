@@ -50,4 +50,19 @@ Available plans
   - Single point of contact for all incoming web traffic
   - Works in a particular region
   - Scales automatically
-  - 
+
+## Messaging and Queuing
+
+- Required when one service needs to communicate with another service and get a response back
+- When this scales, the performance will degrade as the services are communicating synchronously
+
+## AWS Simple Notification Service
+
+- Publish / Subscribe service
+- Publish a message to SNS (topic) -> Sends it to all subscribers
+
+
+## AWS Simple Queue Service
+
+- Send, Store and Receive messages between multiple components
+- Messages are placed here, until they are processed
