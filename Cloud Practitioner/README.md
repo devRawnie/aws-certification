@@ -11,4 +11,4 @@
   - On Premise : Deployed to private cloud. Resources are kept in on-premise data centers 
   - Hybrid : Keep resources on private clouds and use services provided by cloud based resources
 
-## [Elastic Cloud Compute](./EC2.md)
+## [AWS Compute Services](./AWS_Compute.md)
