@@ -1,4 +1,7 @@
-# EC2 - Elastic Cloud Compute
+# AWS Compute Services
+
+
+## 1. EC2 - Elastic Cloud Compute
 
 - Multi-tenancy : Sharing hardware between virtual machines
   - Runs on top of **Physical Host Machines** managed by AWS using virtualization technology
@@ -20,7 +23,7 @@
   - Accelerated Computing : Use hardware accelerators
   - Storage Optimized : When high frequency I/O is required
 
-## Pricing
+### Pricing
 
 Available plans
 - On-Demand : No long term commitment. Used for short term, irregular workloads
@@ -29,7 +32,7 @@ Available plans
 - Spot Instances : Use unused EC2 computing capacity, AWS can reclaim these any time (By giving a 2 min warning)
 - Dedicated Hosts : Physical hosts dedicated for an account (Generally used for meeting compliance requirements)
 
-## Scaling
+### Scaling
 - Automatically responding to changing demand by scaling up or out physical resources
   - Scale Up : Increase the server configuration
   - Scale Out : Increase the number of servers
@@ -44,25 +47,46 @@ Available plans
   - Desired Capacity : Default to minimum capacity if not set.
   - Maximum Capacity : Maximum no of instances that will be created in this group
 
-## Load Balancing
+### Load Balancing
 - Required to distribute traffic among different resources in an auto-scaling group
 - AWS Service : `Elastic Load Balancer`
   - Single point of contact for all incoming web traffic
   - Works in a particular region
   - Scales automatically
 
-## Messaging and Queuing
+### Messaging and Queuing
 
 - Required when one service needs to communicate with another service and get a response back
 - When this scales, the performance will degrade as the services are communicating synchronously
 
-## AWS Simple Notification Service
+### AWS Simple Notification Service
 
 - Publish / Subscribe service
 - Publish a message to SNS (topic) -> Sends it to all subscribers
 
 
-## AWS Simple Queue Service
+### AWS Simple Queue Service
 
 - Send, Store and Receive messages between multiple components
 - Messages are placed here, until they are processed
+
+## 2. AWS Lambda
+
+- Serverless compute option
+- Cannot see the underlying architecture
+- AWS Handles provisioning, scaling and availability
+- Lambda function runs on a registered trigger source
+
+## 3. AWS Elastic Container Service
+## 4. AWS Elastic Kubernetes Service
+
+- Container orchestration tools
+- Container (`Docker`) packages code with its dependencies
+- These containers run on EC2 instances and can be managed by ECS / EKS instances
+- Scaling and Availability will have to be handled by developers
+
+## 5. AWS Fargate
+
+- Serverless compute platform for ECS / EKS
+- Containers can run on Fargate instead of EC2
+- Scalability and Availability will be handled by AWS for Fargate
