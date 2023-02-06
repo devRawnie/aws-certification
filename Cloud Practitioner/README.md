@@ -14,3 +14,5 @@
 ## [Module 2: AWS Compute Services](./AWS_Compute.md)
 
 ## [Module 3: AWS Global Infrastructure](./AWS_Infrastructure.md)
+
+## [Module 4: AWS Networking](./AWS_Networking.md)
