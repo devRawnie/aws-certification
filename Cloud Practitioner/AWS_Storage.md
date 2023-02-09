@@ -10,8 +10,9 @@
 ## AWS Elastic Block Storage
 
 - Can create virtual hard drives (EBS Volume)
-- Can be attached to the EC2 instances
+- Can be attached to a `single` EC2 instances
 - Not attached to the AWS host
+- Availability Zone level resource
 - Define `size`, `type` and `configuration`
 - Provides a feature to create `snapshots` : Incremental backups of EBS Volume
 
@@ -57,3 +58,35 @@
 ### Block Storage
 
 - Breaks down a file into smaller parts called `blocks`
+
+## AWS Elastic File System (EFS)
+
+- Multiple instances can access data in EFS at the `same time`
+- Linux file system
+- Regional resource
+- Automatically Scales
+
+![image](https://user-images.githubusercontent.com/103091956/217779131-b1602209-bd14-4700-88c9-2a4738657899.png)
+
+## AWS Relational Database Service
+
+- Relational Database as a Service
+- Provide `Lift and Shift Migration`
+- Provides automated patching, Backups, Disaster Recovery
+- MySQL, PostgreSQL, Oracle, MariaDB, Microsoft SQL Server
+
+## AWS Aurora
+
+- MySQL and PostgreSQL
+- Data replication: Upto 6 copies of data in 3 Availability Zones
+- Read Replication: Upto 15 read replicas
+- Continuous Backup to S3
+ 
+## AWS DynamoDB
+
+- NoSQL (Non relational)  Database
+- Data is stored as items
+- Item has attributes (Key Value pair)
+- Scaling is handled automatically
+- Copies data redundantly across availability zones
+
