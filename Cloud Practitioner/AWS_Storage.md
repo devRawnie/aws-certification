@@ -90,3 +90,18 @@
 - Scaling is handled automatically
 - Copies data redundantly across availability zones
 
+## AWS Redshift
+
+- `Data Warehouse` : Used for storing historical data and performing historical analysis (instead of operational analysis)
+- Data warehouse as a Service
+- For running Business Intelligence queries on large sets of data
+
+## AWS Database Migration Service
+
+- Used to migrate data frmo a source database to a destination database
+- Source database is active during the migration
+- Source and Target databases don't necessarily have to be of the same type
+- `Homogeneous Migration` : Migrating data between same types of database
+- `Heterogeneous Migration` : Migrating data between different types of database
+  - First need to convert schema of data from source table into the schema compatible with the destination table
+- Database Consolidation : Merging multiple databases into a single database
