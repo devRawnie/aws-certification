@@ -98,7 +98,7 @@
 
 ## AWS Database Migration Service
 
-- Used to migrate data frmo a source database to a destination database
+- Used to migrate data from a source database to a destination database
 - Source database is active during the migration
 - Source and Target databases don't necessarily have to be of the same type
 - `Homogeneous Migration` : Migrating data between same types of database
