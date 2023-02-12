@@ -105,3 +105,30 @@
 - `Heterogeneous Migration` : Migrating data between different types of database
   - First need to convert schema of data from source table into the schema compatible with the destination table
 - Database Consolidation : Merging multiple databases into a single database
+
+## AWS DocumentDB
+
+- MongoDB compatible database service
+
+## AWS Neptune
+
+- Graph database as a service
+
+## AWS Managed Blockchain
+
+## AWS Quantum Ledger Database (QLDB)
+
+- Immutable ledger of records
+- Any entry can not be removed
+
+## Database Accelarators
+
+- Caching Layer
+
+### AWS ElastiCache
+
+- MemcacheD / Redis
+
+### AWS DynamoDB Accelarator (DAX)
+
+- In Memory cache for DynamoDB
