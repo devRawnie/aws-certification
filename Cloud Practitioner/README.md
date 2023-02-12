@@ -18,3 +18,5 @@
 ## [Module 4: AWS Networking](./AWS_Networking.md)
 
 ## [Module 5: AWS Storage](./AWS_Storage.md)
+
+## [Module 6: AWS Security](./AWS_Security.md)
