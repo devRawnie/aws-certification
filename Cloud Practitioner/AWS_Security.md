@@ -35,4 +35,7 @@
   - `Action` : API Call
   - `Resource` : Unique ID on which the effect is applied for the given action
 - `IAM Group` : Can attach a policy to a group, and it will be applied to all the users in that group
-- `IAM Roles` : Have associated permissions. These roles can be assigned to an IAM User temporarily
+- `IAM Roles`
+  - Have associated permissions
+  - These roles can be assigned to an IAM User temporarily
+  - Can assign roles to external identities and federate users into AWS Account without creating an AWS IAM User for them 
