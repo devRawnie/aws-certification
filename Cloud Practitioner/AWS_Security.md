@@ -39,3 +39,14 @@
   - Have associated permissions
   - These roles can be assigned to an IAM User temporarily
   - Can assign roles to external identities and federate users into AWS Account without creating an AWS IAM User for them 
+
+## AWS Orgnaizations
+
+- Central location to manage multiple accounts
+- Consolidated Billing for all accounts
+- Service Control Policies : To give permissions to member accounts
+- `Organizational Units` : Multiple accounts can be grouped into organizational units to make it easier to manage accounts
+
+## Compliances
+
+https://explore.skillbuilder.aws/learn/course/134/play/62437/aws-cloud-practitioner-essentials
