@@ -49,4 +49,35 @@
 
 ## Compliances
 
-https://explore.skillbuilder.aws/learn/course/134/play/62437/aws-cloud-practitioner-essentials
+- Consumer data used in EU -> General Data Protection Regulation (GDPR)
+- Healthcare applications in US -> Health Insurance Portability and Accountability Act (HIPAA)
+
+### AWS Artifact
+- Whitepapers and Documentation regarding how AWS is following best practices related to required compliances
+- Compliance reports done by third parties
+- Consists of
+  - AWS Artifact Agreements : Manage agreements between AWS and an organization
+  - AWS Artifact Reports : Provide compliance reports about standards to be followed for a member of a company
+
+## Distributed Denial of Service (D.D.O.S) Attack
+
+### UDP Flood
+-  Attacker will request an online service for some data
+-  In return address, it will put the address of the targeted service
+-  The targeted service is overwhelmed by the amount of data it received
+
+### HTTP Level Attacks
+
+- Multiple machines send request to a normal HTTP endpoint multiple times
+
+### SLOWLORIS ATTACK
+
+- Attacker pretends to have a slow internet connection and hogs the resources, during which regular people can't use those resources
+
+## AWS WAF
+
+- Web Application Firewall
+- Filters incoming traffic containing the signature of bad actors
+## AWS SHIELD
+- Service that protects all AWS Customers at no cost
+- Protects the systems from most common and frequently occuring DDOS Attacks
