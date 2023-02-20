@@ -78,6 +78,30 @@
 
 - Web Application Firewall
 - Filters incoming traffic containing the signature of bad actors
+
 ## AWS SHIELD
 - Service that protects all AWS Customers at no cost
 - Protects the systems from most common and frequently occuring DDOS Attacks
+
+## Security
+
+### Encryption
+
+- `Encryption at rest` : Data at rest that is stored in some database is in encrypted form
+- `Encryption in transit` : Data passing between clients and services or between multiple services is encrypted
+  - SQS
+  - RDS
+  - S3
+
+## AWS Inspector
+
+- Helps improve security and compliance of the AWS Deployed application
+- Runs an automated security assessment against our infrastructure
+  - Network configuration reachability piece
+  - Amazon agent
+  - Security assessment service
+
+## AWS Guard Duty
+
+- Checks cloudwatch logs and other metadata to detect any possible threat
+
