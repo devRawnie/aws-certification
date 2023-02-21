@@ -21,4 +21,4 @@
 
 ## [Module 6: AWS Security](./AWS_Security.md)
 
-## [Module 7: AWS Security](./AWS_Monitoring.md)
+## [Module 7: AWS Monitoring](./AWS_Monitoring.md)
