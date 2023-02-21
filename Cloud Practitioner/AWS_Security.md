@@ -93,8 +93,16 @@
   - RDS
   - S3
 
+## AWS KMS
+- Enables us to perform encryption via cryptographic keys by creating and managing keys
+
+## AWS WAF
+- Works with Amazon Cloudfront and Application Load Balancer
+- Uses `Web Acces Control List` to protect AWS resources
+
 ## AWS Inspector
 
+- Checks for security vulnerabilities
 - Helps improve security and compliance of the AWS Deployed application
 - Runs an automated security assessment against our infrastructure
   - Network configuration reachability piece
