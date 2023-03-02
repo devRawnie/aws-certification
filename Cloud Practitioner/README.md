@@ -22,3 +22,6 @@
 ## [Module 6: AWS Security](./AWS_Security.md)
 
 ## [Module 7: AWS Monitoring](./AWS_Monitoring.md)
+
+## [Module 8: AWS Pricing](./AWS_Pricing.md)
+
