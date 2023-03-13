@@ -18,3 +18,16 @@
 - AWS Estimates can be organized in groups
 
 ## Billing Dashboard
+
+- Shows cost breakdown by region
+- Shows top 5 services by price
+
+## Consolidated Billing
+- Single bill for different AWS Accounts
+- Can save money across accounts with Bulk Usage Billing. Combines the usage from all accounts and gives bulk discount
+- Free to use feature
+
+## AWS Budgets
+
+- Set alerts for some cost
+- Get notified when the usage reaches the budget amount
